@@ -1,0 +1,8 @@
+8072b84192e1795dd95554cb47d168b8136d91e5		branch 'add_public_ta' of https://github.com/Open-TEE/tee-engine
+389719440fd17524c46217d52fd68fdacbe7ad96		branch 'crypto_api' of https://github.com/Open-TEE/tee-engine
+41b8336df2147b23d1ddce9e1c2bdeb7cd0a7592		branch 'master' of https://github.com/Open-TEE/tee-engine
+a93f39b1367229f914f63be561416b5fa297dcf1		branch 'new_crypto' of https://github.com/Open-TEE/tee-engine
+1fdc29a11869a13cc9c9e6b0f3ad4da2cdca5e86		branch 'new_crypto2' of https://github.com/Open-TEE/tee-engine
+1fcfce1fd0ecae65c3cba4db8c3b07d36eb593ee		branch 'parser_fclosefix' of https://github.com/Open-TEE/tee-engine
+96b436e21e29071aa60f0c7c0ecf4018cc20654d		branch 'storage_key_api_v3' of https://github.com/Open-TEE/tee-engine
+5e7b4559ed06e4b8967968dec14579e992cbf583		branch 'tee_crypto_api_v2' of https://github.com/Open-TEE/tee-engine

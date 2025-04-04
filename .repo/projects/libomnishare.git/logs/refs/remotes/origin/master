@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 f94383ead10a140c442b7e1130bb9e024150a2f1 nrincon2302 <n.rincon4@uniandes.edu.co> 1743727435 -0500	fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/*: storing head

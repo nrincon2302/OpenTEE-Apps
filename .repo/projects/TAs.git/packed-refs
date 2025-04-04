@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+44df39c17fedac291ad33efdaab89b746e67c78c refs/remotes/origin/master
+bce04c95c01f6be037d78786c46e232043494492 refs/remotes/origin/oxford
+298876ec39da2c4c538d73ff8baebd72661a77ab refs/remotes/origin/workshop

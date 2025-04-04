@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/Open-TEE/libomnishare
+	review = https://review.gerrithub.io/Open-TEE
+	projectname = libomnishare
+	fetch = +refs/heads/*:refs/remotes/origin/*

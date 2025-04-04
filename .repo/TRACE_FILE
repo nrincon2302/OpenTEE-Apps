@@ -1,0 +1,1292 @@
+PID: 32384 START: 1743727196312202496 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/Open-TEE/manifest.git [sid=repo-20250404T003918Z-P00007e80/repo-20250404T003956Z-P00007e80]
+
+PID: 32384 START: 1743727196339380224 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/nicolas/opentee/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 32384 END: 1743727196348112640 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/nicolas/opentee/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 32384 START: 1743727196350952192 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 32384 END: 1743727196357861376 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 32384 START: 1743727196358526464 :: parsing /home/nicolas/.gitconfig
+
+PID: 32384 END: 1743727196359005696 :: parsing /home/nicolas/.gitconfig
+
+PID: 32384 START: 1743727196359605504 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32384 END: 1743727196365967360 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32384 START: 1743727196366654976 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32384 END: 1743727196374914816 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32384 START: 1743727196375663104 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32384 END: 1743727196382104832 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32384 START: 1743727196382978560 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/manifest.git'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/manifest.git 1>| 2>|
+
+PID: 32384 END: 1743727196390670336 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/manifest.git'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/manifest.git 1>| 2>|
+
+PID: 32384 START: 1743727196391403008 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32384 END: 1743727196397867008 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32384 START: 1743727196398648832 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 32384 END: 1743727211797593344 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 32384 START: 1743727211798630912 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 32384 END: 1743727211805798912 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 32384 START: 1743727211806370048 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 32384 END: 1743727211814538496 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 32384 START: 1743727211815244288 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 32384 END: 1743727211823141888 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 32384 START: 1743727211824509440 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32384 END: 1743727227442813952 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32384 START: 1743727227443653376 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32384 END: 1743727227452982784 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32384 START: 1743727227454487552 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 32384 END: 1743727227459415808 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 32384 START: 1743727227460538880 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 32384 END: 1743727227466793728 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 32384 START: 1743727227467081216 :: load refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32384 END: 1743727227467432960 :: load refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32384 START: 1743727227467749888 :: scan refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32384 END: 1743727227467806464 :: scan refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32384 START: 1743727227468130560 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '2998b969817a5384d8d9eab2c51cd75d35a15d09'] with debug: : git update-ref refs/heads/default 2998b969817a5384d8d9eab2c51cd75d35a15d09 1>| 2>|
+
+PID: 32384 END: 1743727227475432704 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '2998b969817a5384d8d9eab2c51cd75d35a15d09'] with debug: : git update-ref refs/heads/default 2998b969817a5384d8d9eab2c51cd75d35a15d09 1>| 2>|
+
+PID: 32384 START: 1743727227476085248 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 32384 END: 1743727227480566272 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 32384 START: 1743727227488638976 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 32384 END: 1743727227495693056 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 32384 END: 1743727227495945728 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/Open-TEE/manifest.git [sid=repo-20250404T003918Z-P00007e80/repo-20250404T003956Z-P00007e80]
+
+PID: 32845 START: 1743727388878528512 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync, -j10 [sid=repo-20250404T004308Z-P0000804d/repo-20250404T004308Z-P0000804d]
+
+PID: 32845 START: 1743727388890743296 :git command None ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727388897421824 :git command None ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 START: 1743727388898212608 :: parsing /home/nicolas/.gitconfig
+
+PID: 32845 END: 1743727388898457088 :: parsing /home/nicolas/.gitconfig
+
+PID: 32845 START: 1743727388911201792 :git command None ['git', 'config', '--file', '/home/nicolas/opentee/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727388918411776 :git command None ['git', 'config', '--file', '/home/nicolas/opentee/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 START: 1743727388928639232 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/nicolas/opentee/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32845 END: 1743727404334235136 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/nicolas/opentee/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32845 START: 1743727404334839040 :: load refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32845 END: 1743727404335621888 :: load refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32845 START: 1743727404336419072 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 END: 1743727404342253568 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'symbolic-ref', '-m', 'manifest set to refs/heads/master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to refs/heads/master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727404342864896 :: scan refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32845 END: 1743727404343072768 :: scan refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32845 START: 1743727404343241728 :: scan refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32845 END: 1743727404343374848 :: scan refs /home/nicolas/opentee/.repo/manifests.git
+
+PID: 32845 START: 1743727404344631296 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 32845 END: 1743727404354930432 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.existingprojectcount', '0'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.existingprojectcount 0 1>| 2>|
+
+PID: 32845 START: 1743727404355491072 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 10 1>| 2>|
+
+PID: 32845 END: 1743727404363459840 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.newprojectcount', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.newprojectcount 10 1>| 2>|
+
+PID: 32951 START: 1743727404468159744 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/CAs.git
+: git init 1>| 2>|
+
+PID: 32952 START: 1743727404468522752 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/TAs.git
+: git init 1>| 2>|
+
+PID: 32954 START: 1743727404473450240 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git
+: git init 1>| 2>|
+
+PID: 32960 START: 1743727404475915008 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/tee-engine.git
+: git init 1>| 2>|
+
+PID: 32958 START: 1743727404479724288 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git
+: git init 1>| 2>|
+
+PID: 32977 START: 1743727404479759872 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/libtee.git
+: git init 1>| 2>|
+
+PID: 32963 START: 1743727404480732928 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/libomnishare.git
+: git init 1>| 2>|
+
+PID: 32971 START: 1743727404480866816 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git
+: git init 1>| 2>|
+
+PID: 32986 START: 1743727404481138176 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/project.git
+: git init 1>| 2>|
+
+PID: 32954 END: 1743727404481704192 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git
+: git init 1>| 2>|
+
+PID: 32952 END: 1743727404481699840 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/TAs.git
+: git init 1>| 2>|
+
+PID: 32994 START: 1743727404481603840 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/tests.git
+: git init 1>| 2>|
+
+PID: 32952 START: 1743727404488743168 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32971 END: 1743727404490593280 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git
+: git init 1>| 2>|
+
+PID: 32951 END: 1743727404491971840 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/CAs.git
+: git init 1>| 2>|
+
+PID: 32954 START: 1743727404492507392 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --null --list 1>| 2>|
+
+PID: 32977 END: 1743727404492811264 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/libtee.git
+: git init 1>| 2>|
+
+PID: 32963 END: 1743727404493074944 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/libomnishare.git
+: git init 1>| 2>|
+
+PID: 32994 END: 1743727404493787392 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/tests.git
+: git init 1>| 2>|
+
+PID: 32960 END: 1743727404495281152 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/tee-engine.git
+: git init 1>| 2>|
+
+PID: 32971 START: 1743727404496455680 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --null --list 1>| 2>|
+
+PID: 32951 START: 1743727404496964096 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32994 START: 1743727404498677760 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --null --list 1>| 2>|
+
+PID: 32977 START: 1743727404498770432 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --null --list 1>| 2>|
+
+PID: 32963 START: 1743727404499987456 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --null --list 1>| 2>|
+
+PID: 32960 START: 1743727404499998208 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --null --list 1>| 2>|
+
+PID: 32952 END: 1743727404500768256 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32952 START: 1743727404501840640 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32971 END: 1743727404503614464 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --null --list 1>| 2>|
+
+PID: 32971 START: 1743727404505010176 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32958 END: 1743727404505932800 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git
+: git init 1>| 2>|
+
+PID: 32977 END: 1743727404505997312 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --null --list 1>| 2>|
+
+PID: 32977 START: 1743727404506867456 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32994 END: 1743727404507171584 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --null --list 1>| 2>|
+
+PID: 32994 START: 1743727404508165632 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32954 END: 1743727404509929728 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --null --list 1>| 2>|
+
+PID: 32960 END: 1743727404510278400 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --null --list 1>| 2>|
+
+PID: 32986 END: 1743727404510354944 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'init'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/project-objects/project.git
+: git init 1>| 2>|
+
+PID: 32952 END: 1743727404510400768 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32954 START: 1743727404510844160 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32952 START: 1743727404510898432 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32958 START: 1743727404511121920 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --null --list 1>| 2>|
+
+PID: 32960 START: 1743727404511262720 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32977 END: 1743727404513621504 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32977 START: 1743727404514301440 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32951 END: 1743727404515488768 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32951 START: 1743727404516526080 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32963 END: 1743727404517804032 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --null --list 1>| 2>|
+
+PID: 32954 END: 1743727404517879808 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32986 START: 1743727404518344704 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --null --list 1>| 2>|
+
+PID: 32954 START: 1743727404518481664 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32952 END: 1743727404518700544 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32963 START: 1743727404518749952 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32952 START: 1743727404519258112 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32960 END: 1743727404520718592 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32994 END: 1743727404520771328 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32994 START: 1743727404521341440 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32960 START: 1743727404521362176 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32951 END: 1743727404522733824 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32951 START: 1743727404523347456 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32971 END: 1743727404524489472 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32954 END: 1743727404524489472 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32954 START: 1743727404525077760 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32971 START: 1743727404525124096 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32986 END: 1743727404525164800 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --null --list 1>| 2>|
+
+PID: 32958 END: 1743727404525738240 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --null --list 1>| 2>|
+
+PID: 32986 START: 1743727404526016768 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32958 START: 1743727404526579456 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32952 END: 1743727404526733056 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32952 START: 1743727404527433984 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/TAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/TAs 1>| 2>|
+
+PID: 32977 END: 1743727404529023744 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32963 END: 1743727404529086464 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32963 START: 1743727404529637120 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32977 START: 1743727404529661184 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32994 END: 1743727404530968320 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32994 START: 1743727404531676928 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32954 END: 1743727404532410880 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32954 START: 1743727404533481216 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/opentee-extension-chrome'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/opentee-extension-chrome 1>| 2>|
+
+PID: 32971 END: 1743727404536033024 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32951 END: 1743727404536141056 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32951 START: 1743727404536798720 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32971 START: 1743727404536887552 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32960 END: 1743727404536888064 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32960 START: 1743727404537433600 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32958 END: 1743727404538811392 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32958 START: 1743727404539411456 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32977 END: 1743727404539503872 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32986 END: 1743727404539522048 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 32986 START: 1743727404540059904 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32977 START: 1743727404540241408 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/libtee'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/libtee 1>| 2>|
+
+PID: 32954 END: 1743727404540186880 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/opentee-extension-chrome'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/opentee-extension-chrome 1>| 2>|
+
+PID: 32952 END: 1743727404540186880 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/TAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/TAs 1>| 2>|
+
+PID: 32963 END: 1743727404540270848 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32952 START: 1743727404540734976 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32963 START: 1743727404540814080 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32954 START: 1743727404540819712 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32994 END: 1743727404541662976 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32994 START: 1743727404542470912 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/tests'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/tests 1>| 2>|
+
+PID: 32951 END: 1743727404543620864 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32960 END: 1743727404543643392 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32960 START: 1743727404544400384 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/tee-engine'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/tee-engine 1>| 2>|
+
+PID: 32951 START: 1743727404544401408 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/CAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/CAs 1>| 2>|
+
+PID: 32971 END: 1743727404545838592 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32971 START: 1743727404546680064 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/libtee_pkcs11'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/libtee_pkcs11 1>| 2>|
+
+PID: 32977 END: 1743727404547522816 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/libtee'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/libtee 1>| 2>|
+
+PID: 32977 START: 1743727404548200704 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32952 END: 1743727404550476544 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32952 START: 1743727404551051264 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'TAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.projectname TAs 1>| 2>|
+
+PID: 32958 END: 1743727404551265536 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32951 END: 1743727404551674112 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/CAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/CAs 1>| 2>|
+
+PID: 32963 END: 1743727404551784960 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32958 START: 1743727404551901440 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32951 START: 1743727404552117504 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32954 END: 1743727404552581120 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32963 START: 1743727404552759552 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/libomnishare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/libomnishare 1>| 2>|
+
+PID: 32954 START: 1743727404553175552 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'opentee-extension-chrome'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.projectname opentee-extension-chrome 1>| 2>|
+
+PID: 32994 END: 1743727404554906112 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/tests'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/tests 1>| 2>|
+
+PID: 32977 END: 1743727404554911744 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32960 END: 1743727404555025152 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/tee-engine'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/tee-engine 1>| 2>|
+
+PID: 32977 START: 1743727404555521536 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'libtee'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.projectname libtee 1>| 2>|
+
+PID: 32960 START: 1743727404555524864 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32994 START: 1743727404555520256 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32971 END: 1743727404558633472 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/libtee_pkcs11'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/libtee_pkcs11 1>| 2>|
+
+PID: 32951 END: 1743727404558616320 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32951 START: 1743727404559194368 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'CAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.projectname CAs 1>| 2>|
+
+PID: 32971 START: 1743727404559201792 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32986 END: 1743727404559170560 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 32963 END: 1743727404559485952 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/libomnishare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/libomnishare 1>| 2>|
+
+PID: 32986 START: 1743727404559743744 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32963 START: 1743727404559995648 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32954 END: 1743727404559965952 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'opentee-extension-chrome'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.projectname opentee-extension-chrome 1>| 2>|
+
+PID: 32952 END: 1743727404559965952 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'TAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.projectname TAs 1>| 2>|
+
+PID: 32954 START: 1743727404560534272 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32952 START: 1743727404560617728 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32958 END: 1743727404562016256 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32958 START: 1743727404562854144 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/tee-engine-Driver'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/tee-engine-Driver 1>| 2>|
+
+PID: 32994 END: 1743727404566472704 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32994 START: 1743727404567310080 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'tests'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.projectname tests 1>| 2>|
+
+PID: 32977 END: 1743727404567435520 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'libtee'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.projectname libtee 1>| 2>|
+
+PID: 32977 START: 1743727404568057600 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32960 END: 1743727404569910272 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32960 START: 1743727404570613760 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'tee-engine'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.projectname tee-engine 1>| 2>|
+
+PID: 32951 END: 1743727404571157760 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'CAs'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.projectname CAs 1>| 2>|
+
+PID: 32971 END: 1743727404571555072 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32951 START: 1743727404571843584 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32971 START: 1743727404572221184 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'libtee_pkcs11'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.projectname libtee_pkcs11 1>| 2>|
+
+PID: 32963 END: 1743727404574110976 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32986 END: 1743727404574339072 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 32963 START: 1743727404574742016 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'libomnishare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.projectname libomnishare 1>| 2>|
+
+PID: 32986 START: 1743727404575113728 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/project'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/project 1>| 2>|
+
+PID: 32952 END: 1743727404576931328 :git command /home/nicolas/opentee/.repo/project-objects/TAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32954 END: 1743727404577391616 :git command /home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32952 START: 1743727404577648384 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/TAs.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/TAs/clone.bundle
+
+PID: 32954 START: 1743727404578040320 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/chrome.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/opentee-extension-chrome/clone.bundle
+
+PID: 32994 END: 1743727404580733440 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'tests'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.projectname tests 1>| 2>|
+
+PID: 32986 END: 1743727404581264896 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/project'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/project 1>| 2>|
+
+PID: 32994 START: 1743727404581384192 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32986 START: 1743727404581871616 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32951 END: 1743727404583141632 :git command /home/nicolas/opentee/.repo/project-objects/CAs.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32958 END: 1743727404583380992 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/Open-TEE/tee-engine-Driver'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.url https://github.com/Open-TEE/tee-engine-Driver 1>| 2>|
+
+PID: 32951 START: 1743727404583785984 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/CAs.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/CAs/clone.bundle
+
+PID: 32958 START: 1743727404583976960 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32963 END: 1743727404585781248 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'libomnishare'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.projectname libomnishare 1>| 2>|
+
+PID: 32960 END: 1743727404586178048 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'tee-engine'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.projectname tee-engine 1>| 2>|
+
+PID: 32963 START: 1743727404586442752 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32960 START: 1743727404586728960 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32954 END: 1743727404587817216 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/chrome.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/opentee-extension-chrome/clone.bundle
+
+PID: 32977 END: 1743727404588684800 :git command /home/nicolas/opentee/.repo/project-objects/libtee.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32977 START: 1743727404589509120 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/libtee.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/libtee/clone.bundle
+
+PID: 32958 END: 1743727404592785664 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32958 START: 1743727404593351936 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'tee-engine-Driver'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.projectname tee-engine-Driver 1>| 2>|
+
+PID: 32960 END: 1743727404594817792 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32952 END: 1743727404594888448 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/TAs.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/TAs/clone.bundle
+
+PID: 32960 START: 1743727404595520512 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/emulator.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/tee-engine/clone.bundle
+
+PID: 32994 END: 1743727404596303104 :git command /home/nicolas/opentee/.repo/project-objects/tests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32994 START: 1743727404597508096 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/tests.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/tests/clone.bundle
+
+PID: 32977 END: 1743727404598348544 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/libtee.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/libtee/clone.bundle
+
+PID: 32951 END: 1743727404598348544 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/CAs.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/CAs/clone.bundle
+
+PID: 32958 END: 1743727404605770752 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'tee-engine-Driver'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.projectname tee-engine-Driver 1>| 2>|
+
+PID: 32958 START: 1743727404606443008 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32963 END: 1743727404608402944 :git command /home/nicolas/opentee/.repo/project-objects/libomnishare.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32986 END: 1743727404608787200 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.review', 'https://review.gerrithub.io/Open-TEE'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.review https://review.gerrithub.io/Open-TEE 1>| 2>|
+
+PID: 32963 START: 1743727404609113344 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/libomnishare.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/libomnishare/clone.bundle
+
+PID: 32986 START: 1743727404609333248 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'project'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.projectname project 1>| 2>|
+
+PID: 32971 END: 1743727404611453440 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'libtee_pkcs11'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.projectname libtee_pkcs11 1>| 2>|
+
+PID: 32971 START: 1743727404612242944 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32958 END: 1743727404617164800 :git command /home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32958 START: 1743727404617881600 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/driver.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/tee-engine-Driver/clone.bundle
+
+PID: 32986 END: 1743727404621710848 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.projectname', 'project'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.projectname project 1>| 2>|
+
+PID: 32958 END: 1743727404621944832 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/driver.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/tee-engine-Driver/clone.bundle
+
+PID: 32986 START: 1743727404622439936 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32971 END: 1743727404623087872 :git command /home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32971 START: 1743727404623707648 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/libtee_pkcs11/clone.bundle
+
+PID: 32960 END: 1743727404629107968 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/emulator.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/tee-engine/clone.bundle
+
+PID: 32986 END: 1743727404629951232 :git command /home/nicolas/opentee/.repo/project-objects/project.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32986 START: 1743727404630714880 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/project.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/project/clone.bundle
+
+PID: 32986 END: 1743727404635731200 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/project.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/project/clone.bundle
+
+PID: 32994 END: 1743727404636761344 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/tests.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/tests/clone.bundle
+
+PID: 32963 END: 1743727404637740032 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/libomnishare.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/libomnishare/clone.bundle
+
+PID: 32971 END: 1743727404649104896 :Fetching bundle: curl --fail --output /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/clone.bundle.tmp --netrc --location https://github.com/Open-TEE/libtee_pkcs11/clone.bundle
+
+PID: 32977 START: 1743727419941209856 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/libtee.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32952 START: 1743727419947552000 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/TAs.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/TAs.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32951 START: 1743727419950870016 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/CAs.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/CAs.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32954 START: 1743727419954556416 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/chrome.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32958 START: 1743727419962517760 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/driver.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32960 START: 1743727419967154176 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/emulator.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/tee-engine.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32994 START: 1743727419968517376 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/tests.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/tests.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32963 START: 1743727419973780992 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libomnishare.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/libomnishare.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32986 START: 1743727419974015744 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/project.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/project.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32971 START: 1743727419974915584 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32963 END: 1743727435539474944 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libomnishare.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/libomnishare.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32963 START: 1743727435540410112 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32963 END: 1743727435545905664 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32963 START: 1743727435546231552 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 32963 END: 1743727435546625792 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 32963 START: 1743727435546976256 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32963 END: 1743727435556243200 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727435561046272 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 32845 END: 1743727435562089728 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 32845 START: 1743727435562877952 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435568486400 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libomnishare.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libomnishare.git/config --includes --null --list 1>| 2>|
+
+PID: 32958 END: 1743727435615629312 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/driver.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/tee-engine-Driver.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32958 START: 1743727435616074240 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32958 END: 1743727435622233856 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32958 START: 1743727435622721280 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32958 END: 1743727435623368192 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32958 START: 1743727435623954176 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32958 END: 1743727435632231680 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727435634020864 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32845 END: 1743727435635113984 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32845 START: 1743727435635899648 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435644177152 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/driver.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/driver.git/config --includes --null --list 1>| 2>|
+
+PID: 32977 END: 1743727435781836544 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/libtee.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32977 START: 1743727435782818048 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32954 END: 1743727435788982272 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/chrome.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/opentee-extension-chrome.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32954 START: 1743727435789893120 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32977 END: 1743727435793735424 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32977 START: 1743727435794357248 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 32977 END: 1743727435795197952 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 32977 START: 1743727435796042752 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32954 END: 1743727435800399360 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32954 START: 1743727435800855040 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32954 END: 1743727435801590272 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32954 START: 1743727435802248192 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32977 END: 1743727435804006912 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727435805512960 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 32845 END: 1743727435806688000 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 32845 START: 1743727435807402752 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --null --list 1>| 2>|
+
+PID: 32954 END: 1743727435808127232 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 END: 1743727435812829696 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 START: 1743727435813984512 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32845 END: 1743727435814790144 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32845 START: 1743727435815465472 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435824184320 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/chrome.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/chrome.git/config --includes --null --list 1>| 2>|
+
+PID: 32951 END: 1743727435827497216 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/CAs.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/CAs.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32951 START: 1743727435827957248 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32951 END: 1743727435833235968 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32951 START: 1743727435833596416 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32951 END: 1743727435834171136 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32951 START: 1743727435834616320 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32951 END: 1743727435843672576 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727435845464576 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32845 END: 1743727435846385408 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32845 START: 1743727435847207168 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435854215168 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/CAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/CAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32971 END: 1743727435865417984 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/libtee_pkcs11.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32971 START: 1743727435866174720 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32971 END: 1743727435875966464 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32971 START: 1743727435876467968 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 32971 END: 1743727435877069824 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 32971 START: 1743727435877599488 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32971 END: 1743727435886093824 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727435888152832 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 32845 END: 1743727435889175296 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 32845 START: 1743727435889786880 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435897243136 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config --includes --null --list 1>| 2>|
+
+PID: 32952 END: 1743727435932590336 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/TAs.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/TAs.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32952 START: 1743727435933204736 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32986 END: 1743727435940147200 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/project.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/project.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32986 START: 1743727435941280768 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32952 END: 1743727435941668352 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32952 START: 1743727435942163200 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 32952 END: 1743727435942827264 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 32952 START: 1743727435943448576 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32986 END: 1743727435947373568 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32986 START: 1743727435947647488 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 32986 END: 1743727435947962368 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 32994 END: 1743727435947910400 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/tests.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/tests.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32986 START: 1743727435948256768 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32994 START: 1743727435949056512 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32952 END: 1743727435953226240 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727435955671552 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 32986 END: 1743727435956176384 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 END: 1743727435957040384 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 32845 START: 1743727435957886464 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32994 END: 1743727435960373760 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32994 START: 1743727435960933888 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 32994 END: 1743727435961669632 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 32994 START: 1743727435962347008 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 END: 1743727435966077696 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/TAs.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/TAs.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 START: 1743727435967617024 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 32994 END: 1743727435968301312 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 END: 1743727435968709888 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 32845 START: 1743727435969583104 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435977591040 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/project.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/project.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 START: 1743727435978219264 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 32845 END: 1743727435978566144 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 32845 START: 1743727435978874624 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727435987089920 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/tests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/tests.git/config --includes --null --list 1>| 2>|
+
+PID: 32960 END: 1743727437667602944 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--prune', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/emulator.git
+: export GIT_OBJECT_DIRECTORY=/home/nicolas/opentee/.repo/project-objects/tee-engine.git/objects
+: git fetch --quiet --progress origin --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 32960 START: 1743727437669055488 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32960 END: 1743727437679944960 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 32960 START: 1743727437680430848 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32960 END: 1743727437681055232 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32960 START: 1743727437681684992 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32960 END: 1743727437687961600 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'symbolic-ref', '-m', 'manifest set to master', 'refs/remotes/m/master', 'refs/remotes/origin/master'] with debug: : git symbolic-ref -m manifest set to master refs/remotes/m/master refs/remotes/origin/master 1>| 2>|
+
+PID: 32845 START: 1743727437689781504 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32845 END: 1743727437691008768 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32845 START: 1743727437691614208 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 END: 1743727437698418176 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/projects/emulator.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/nicolas/opentee/.repo/projects/emulator.git/config --includes --null --list 1>| 2>|
+
+PID: 32845 START: 1743727437725483776 :: load refs /home/nicolas/opentee/.repo/repo/.git
+
+PID: 32845 END: 1743727437741136896 :: load refs /home/nicolas/opentee/.repo/repo/.git
+
+PID: 33313 START: 1743727437782014720 :: parsing /home/nicolas/opentee/.repo/projects/chrome.git/config
+
+PID: 33305 START: 1743727437782162944 :: parsing /home/nicolas/opentee/.repo/projects/TAs.git/config
+
+PID: 33307 START: 1743727437782417152 :: parsing /home/nicolas/opentee/.repo/projects/driver.git/config
+
+PID: 33313 END: 1743727437782544640 :: parsing /home/nicolas/opentee/.repo/projects/chrome.git/config
+
+PID: 33304 START: 1743727437782488064 :: parsing /home/nicolas/opentee/.repo/projects/CAs.git/config
+
+PID: 33305 END: 1743727437782644992 :: parsing /home/nicolas/opentee/.repo/projects/TAs.git/config
+
+PID: 33308 START: 1743727437782583552 :: parsing /home/nicolas/opentee/.repo/projects/emulator.git/config
+
+PID: 33307 END: 1743727437782856704 :: parsing /home/nicolas/opentee/.repo/projects/driver.git/config
+
+PID: 33304 END: 1743727437782875392 :: parsing /home/nicolas/opentee/.repo/projects/CAs.git/config
+
+PID: 33308 END: 1743727437782993408 :: parsing /home/nicolas/opentee/.repo/projects/emulator.git/config
+
+PID: 33305 START: 1743727437783595776 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/TAs.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33309 START: 1743727437783595264 :: parsing /home/nicolas/opentee/.repo/projects/libomnishare.git/config
+
+PID: 33313 START: 1743727437783752448 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/chrome.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33307 START: 1743727437783798272 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/driver.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33308 START: 1743727437783928320 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/emulator.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33309 END: 1743727437784070144 :: parsing /home/nicolas/opentee/.repo/projects/libomnishare.git/config
+
+PID: 33312 START: 1743727437784173824 :: parsing /home/nicolas/opentee/.repo/projects/project.git/config
+
+PID: 33312 END: 1743727437784756480 :: parsing /home/nicolas/opentee/.repo/projects/project.git/config
+
+PID: 33304 START: 1743727437784824320 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/CAs.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33309 START: 1743727437784900096 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libomnishare.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33312 START: 1743727437785541120 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/project.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33306 START: 1743727437785839360 :: parsing /home/nicolas/opentee/.repo/projects/tests.git/config
+
+PID: 33306 END: 1743727437786363904 :: parsing /home/nicolas/opentee/.repo/projects/tests.git/config
+
+PID: 33306 START: 1743727437787228672 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/tests.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33311 START: 1743727437788323584 :: parsing /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config
+
+PID: 33310 START: 1743727437788344320 :: parsing /home/nicolas/opentee/.repo/projects/libtee.git/config
+
+PID: 33310 END: 1743727437788733184 :: parsing /home/nicolas/opentee/.repo/projects/libtee.git/config
+
+PID: 33311 END: 1743727437788741632 :: parsing /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config
+
+PID: 33310 START: 1743727437789615872 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33311 START: 1743727437789848576 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33305 END: 1743727437792040704 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/TAs.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33313 END: 1743727437792073216 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/chrome.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33313 START: 1743727437793042176 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/chrome
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33305 START: 1743727437793041152 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/TAs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33312 END: 1743727437795114240 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/project.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33312 START: 1743727437796100096 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/project
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33306 END: 1743727437796097024 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/tests.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33311 END: 1743727437796404480 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33307 END: 1743727437796800256 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/driver.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33309 END: 1743727437796814592 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libomnishare.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33306 START: 1743727437797090816 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/tests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33304 END: 1743727437797199360 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/CAs.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33311 START: 1743727437797264896 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/libtee_pkcs11
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33309 START: 1743727437797669376 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/libomnishare
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33307 START: 1743727437797747456 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/driver
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33310 END: 1743727437800174592 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/libtee.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33310 START: 1743727437802497280 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/libtee
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33308 END: 1743727437804387072 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: 
+: export GIT_DIR=/home/nicolas/opentee/.repo/projects/emulator.git
+: git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 33304 START: 1743727437805421312 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/CAs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33308 START: 1743727437805454848 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/emulator
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33306 END: 1743727437808652032 :git command /home/nicolas/opentee/.repo/projects/tests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/tests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33306 START: 1743727437809020160 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 33305 END: 1743727437809060096 :git command /home/nicolas/opentee/.repo/projects/TAs.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/TAs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33305 START: 1743727437809389824 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 33306 END: 1743727437809562368 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 33305 END: 1743727437809950464 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 32845 START: 1743727437810732544 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 33311 END: 1743727437811571200 :git command /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/libtee_pkcs11
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 32845 END: 1743727437811758592 :: load refs /home/nicolas/opentee/.repo/projects/tests.git
+
+PID: 33310 END: 1743727437811704320 :git command /home/nicolas/opentee/.repo/projects/libtee.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/libtee
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33311 START: 1743727437811872256 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 32845 START: 1743727437811870208 :: parsing /home/nicolas/opentee/.repo/projects/tests.git/config
+
+PID: 33310 START: 1743727437812008192 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 32845 END: 1743727437812015104 :: parsing /home/nicolas/opentee/.repo/projects/tests.git/config
+
+PID: 32845 START: 1743727437812253440 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 33311 END: 1743727437812329984 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 33310 END: 1743727437812576000 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 32845 END: 1743727437812688128 :: load refs /home/nicolas/opentee/.repo/projects/TAs.git
+
+PID: 32845 START: 1743727437812768512 :: parsing /home/nicolas/opentee/.repo/projects/TAs.git/config
+
+PID: 32845 END: 1743727437812887552 :: parsing /home/nicolas/opentee/.repo/projects/TAs.git/config
+
+PID: 33309 END: 1743727437812890368 :git command /home/nicolas/opentee/.repo/projects/libomnishare.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/libomnishare
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33307 END: 1743727437812907520 :git command /home/nicolas/opentee/.repo/projects/driver.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/driver
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33309 START: 1743727437813223424 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 33307 START: 1743727437813234432 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32845 START: 1743727437813291776 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 32845 END: 1743727437813781760 :: load refs /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git
+
+PID: 33307 END: 1743727437813782016 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32845 START: 1743727437813866496 :: parsing /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config
+
+PID: 32845 END: 1743727437813982464 :: parsing /home/nicolas/opentee/.repo/projects/libtee_pkcs11.git/config
+
+PID: 33309 END: 1743727437813992448 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 32845 START: 1743727437814693120 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32845 END: 1743727437815624192 :: load refs /home/nicolas/opentee/.repo/projects/driver.git
+
+PID: 32845 START: 1743727437815702784 :: parsing /home/nicolas/opentee/.repo/projects/driver.git/config
+
+PID: 32845 END: 1743727437815794688 :: parsing /home/nicolas/opentee/.repo/projects/driver.git/config
+
+PID: 32845 START: 1743727437815926272 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 33312 END: 1743727437816214784 :git command /home/nicolas/opentee/.repo/projects/project.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/project
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 32845 END: 1743727437816462848 :: load refs /home/nicolas/opentee/.repo/projects/libtee.git
+
+PID: 33313 END: 1743727437816375040 :git command /home/nicolas/opentee/.repo/projects/chrome.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/chrome
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 32845 START: 1743727437816560640 :: parsing /home/nicolas/opentee/.repo/projects/libtee.git/config
+
+PID: 32845 END: 1743727437816712704 :: parsing /home/nicolas/opentee/.repo/projects/libtee.git/config
+
+PID: 33313 START: 1743727437816769536 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32845 START: 1743727437816907520 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 32845 END: 1743727437817462784 :: load refs /home/nicolas/opentee/.repo/projects/libomnishare.git
+
+PID: 33313 END: 1743727437817452544 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32845 START: 1743727437817595904 :: parsing /home/nicolas/opentee/.repo/projects/libomnishare.git/config
+
+PID: 32845 END: 1743727437818253312 :: parsing /home/nicolas/opentee/.repo/projects/libomnishare.git/config
+
+PID: 32845 START: 1743727437818749440 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32845 END: 1743727437819190016 :: load refs /home/nicolas/opentee/.repo/projects/chrome.git
+
+PID: 32845 START: 1743727437819282944 :: parsing /home/nicolas/opentee/.repo/projects/chrome.git/config
+
+PID: 32845 END: 1743727437819383296 :: parsing /home/nicolas/opentee/.repo/projects/chrome.git/config
+
+PID: 33312 START: 1743727437819403520 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 33304 END: 1743727437819879936 :git command /home/nicolas/opentee/.repo/projects/CAs.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/CAs
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33312 END: 1743727437819995904 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 33304 START: 1743727437820223232 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 33304 END: 1743727437820833792 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32845 START: 1743727437821720832 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32845 END: 1743727437822124032 :: load refs /home/nicolas/opentee/.repo/projects/CAs.git
+
+PID: 32845 START: 1743727437822183424 :: parsing /home/nicolas/opentee/.repo/projects/CAs.git/config
+
+PID: 32845 END: 1743727437822270720 :: parsing /home/nicolas/opentee/.repo/projects/CAs.git/config
+
+PID: 32845 START: 1743727437822370560 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 32845 END: 1743727437822692608 :: load refs /home/nicolas/opentee/.repo/projects/project.git
+
+PID: 32845 START: 1743727437822760960 :: parsing /home/nicolas/opentee/.repo/projects/project.git/config
+
+PID: 32845 END: 1743727437822864128 :: parsing /home/nicolas/opentee/.repo/projects/project.git/config
+
+PID: 33308 END: 1743727437825341952 :git command /home/nicolas/opentee/.repo/projects/emulator.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/nicolas/opentee/emulator
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 33308 START: 1743727437825638400 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 33308 END: 1743727437826076928 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32845 START: 1743727437827022080 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32845 END: 1743727437827816704 :: load refs /home/nicolas/opentee/.repo/projects/emulator.git
+
+PID: 32845 START: 1743727437827906048 :: parsing /home/nicolas/opentee/.repo/projects/emulator.git/config
+
+PID: 32845 END: 1743727437828036608 :: parsing /home/nicolas/opentee/.repo/projects/emulator.git/config
+
+PID: 32845 START: 1743727437836942080 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2025-04-04T00:43:57.836602+00:00'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2025-04-04T00:43:57.836602+00:00 1>| 2>|
+
+PID: 32845 END: 1743727437841557504 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.synctime', '2025-04-04T00:43:57.836602+00:00'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.synctime 2025-04-04T00:43:57.836602+00:00 1>| 2>|
+
+PID: 32845 START: 1743727437842099968 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 32845 END: 1743727437847603968 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.main.version', '1'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.main.version 1 1>| 2>|
+
+PID: 32845 START: 1743727437848582144 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/nicolas/opentee/.repo/repo/main.py', '--repo-dir=/home/nicolas/opentee/.repo', '--wrapper-version=2.50', '--wrapper-path=/home/nicolas/bin/repo', '--', 'sync', '-j10']"] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/nicolas/opentee/.repo/repo/main.py', '--repo-dir=/home/nicolas/opentee/.repo', '--wrapper-version=2.50', '--wrapper-path=/home/nicolas/bin/repo', '--', 'sync', '-j10'] 1>| 2>|
+
+PID: 32845 END: 1743727437857485312 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.sys.argv', "['/home/nicolas/opentee/.repo/repo/main.py', '--repo-dir=/home/nicolas/opentee/.repo', '--wrapper-version=2.50', '--wrapper-path=/home/nicolas/bin/repo', '--', 'sync', '-j10']"] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.sys.argv ['/home/nicolas/opentee/.repo/repo/main.py', '--repo-dir=/home/nicolas/opentee/.repo', '--wrapper-version=2.50', '--wrapper-path=/home/nicolas/bin/repo', '--', 'sync', '-j10'] 1>| 2>|
+
+PID: 32845 START: 1743727437858292736 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 10 1>| 2>|
+
+PID: 32845 END: 1743727437865549824 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobs', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobs 10 1>| 2>|
+
+PID: 32845 START: 1743727437866570240 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 32845 END: 1743727437872937216 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.outermanifest', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.outermanifest true 1>| 2>|
+
+PID: 32845 START: 1743727437873981696 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 10 1>| 2>|
+
+PID: 32845 END: 1743727437881654272 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobsnetwork', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobsnetwork 10 1>| 2>|
+
+PID: 32845 START: 1743727437882373376 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 10 1>| 2>|
+
+PID: 32845 END: 1743727437891225088 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.jobscheckout', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.jobscheckout 10 1>| 2>|
+
+PID: 32845 START: 1743727437892041216 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 32845 END: 1743727437899203584 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.mpupdate', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.mpupdate true 1>| 2>|
+
+PID: 32845 START: 1743727437900208896 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 32845 END: 1743727437909320448 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.clonebundle', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.clonebundle true 1>| 2>|
+
+PID: 32845 START: 1743727437909993728 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 32845 END: 1743727437917953792 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.retryfetches', '0'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.retryfetches 0 1>| 2>|
+
+PID: 32845 START: 1743727437918959872 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 32845 END: 1743727437927283968 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.prune', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.prune true 1>| 2>|
+
+PID: 32845 START: 1743727437928079104 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 32845 END: 1743727437936036608 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.repoverify', 'true'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.repoverify true 1>| 2>|
+
+PID: 32845 START: 1743727437937070848 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 32845 END: 1743727437944903680 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.quiet', 'false'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.quiet false 1>| 2>|
+
+PID: 32845 START: 1743727437945655808 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 32845 END: 1743727437954296064 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.options.verbose', 'false'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.options.verbose false 1>| 2>|
+
+PID: 32845 START: 1743727437955525888 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/Open-TEE/manifest.git'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/Open-TEE/manifest.git 1>| 2>|
+
+PID: 32845 END: 1743727437962402816 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.url', 'https://github.com/Open-TEE/manifest.git'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.url https://github.com/Open-TEE/manifest.git 1>| 2>|
+
+PID: 32845 START: 1743727437963190528 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32845 END: 1743727437971225600 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 32845 START: 1743727437972026112 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 32845 END: 1743727437979173376 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.remote', 'origin'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.remote origin 1>| 2>|
+
+PID: 32845 START: 1743727437979899648 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 32845 END: 1743727437989307648 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.branch.default.merge', 'refs/heads/master'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.branch.default.merge refs/heads/master 1>| 2>|
+
+PID: 32845 START: 1743727437990106112 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 32845 END: 1743727437997059584 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.existingprojectcount', '0'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.existingprojectcount 0 1>| 2>|
+
+PID: 32845 START: 1743727437997788160 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 10 1>| 2>|
+
+PID: 32845 END: 1743727438007903744 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--file', '/home/nicolas/opentee/.repo/manifests.git/config', '--includes', '--replace-all', 'repo.syncstate.repo.newprojectcount', '10'] with debug: : git config --file /home/nicolas/opentee/.repo/manifests.git/config --includes --replace-all repo.syncstate.repo.newprojectcount 10 1>| 2>|
+
+PID: 32845 START: 1743727438010568704 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 32845 END: 1743727438015484928 :git command /home/nicolas/opentee/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 32845 END: 1743727438015808256 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: sync, -j10 [sid=repo-20250404T004308Z-P0000804d/repo-20250404T004308Z-P0000804d]
+
