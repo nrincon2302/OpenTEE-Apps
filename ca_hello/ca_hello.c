@@ -1,47 +1,66 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <tee_client_api.h>
+#include <string.h>
+#include "tee_client_api.h"
 
 /* Define el mismo UUID que en la TA */
-static const TEEC_UUID ta_hello_uuid = {
-    0xe7b8c9d0, 0x1234, 0x5678,
-    { 0x9a, 0xbc, 0xde, 0xf0, 0x12, 0x34, 0x56, 0x78 }
+static const TEEC_UUID TA_HELLO_UUID = {
+    0x12345678, 0x8765, 0x4321,
+    { 'H', 'E', 'L', 'L', 'O', 'A', 'P', 'P' }
 };
 
+/* Comando definido para enviar el mensaje */
+#define HELLO_CMD 0
+
+/* Tamaño máximo del mensaje */
+#define MAX_MSG_SIZE 64
+
+/* Función Main de la CA */
 int main(void)
 {
     TEEC_Result res;
     TEEC_Context ctx;
     TEEC_Session sess;
+	TEEC_Operation operation;
+	uint32_t conn_method = TEEC_LOGIN_PUBLIC;
     uint32_t err_origin;
+    char message[MAX_MSG_SIZE] = "Hello World";
 
-    /* Inicializa el contexto */
+    /* Inicializar el contexto */
     res = TEEC_InitializeContext(NULL, &ctx);
     if (res != TEEC_SUCCESS) {
-        printf("Error TEEC_InitializeContext: 0x%x\n", res);
-        return 1;
+        printf("No se pudo inicializar el contexto (error 0x%x)\n", res);
+        return -1;
     }
 
-    /* Abre una sesión con la TA */
-    res = TEEC_OpenSession(&ctx, &sess, &ta_hello_uuid,
-                           TEEC_LOGIN_PUBLIC, NULL, NULL, &err_origin);
+    /* Preparar la operación para enviar el mensaje */
+	// memset(&operation, 0, sizeof(operation));
+    // /* Se utiliza un parámetro de tipo MEMREF WHOLE para enviar el mensaje */
+    // operation.paramTypes = TEEC_PARAM_TYPES(TEEC_MEMREF_WHOLE, TEEC_NONE,
+    //                                  TEEC_NONE, TEEC_NONE);
+    // operation.params[0].tmpref.buffer = message;
+    // operation.params[0].tmpref.size = strlen(message) + 1;
+    
+    /* Abrir sesión con la TA */
+    res = TEEC_OpenSession(&ctx, &sess, &TA_HELLO_UUID,
+                           conn_method, NULL, &operation, &err_origin);
     if (res != TEEC_SUCCESS) {
-        printf("Error TEEC_OpenSession: 0x%x, origin: 0x%x\n", res, err_origin);
+        printf("No se pudo abrir la sesión (error 0x%x), origin 0x%x\n", res, err_origin);
         TEEC_FinalizeContext(&ctx);
-        return 1;
+        return -1;
     }
-
-    /* Invoca el comando de la TA */
-    res = TEEC_InvokeCommand(&sess, 0, NULL, &err_origin);
+    
+    /* Invocar el comando HELLO_CMD en la TA */
+    res = TEEC_InvokeCommand(&sess, HELLO_CMD, &operation, NULL);
     if (res != TEEC_SUCCESS) {
-        printf("Error TEEC_InvokeCommand: 0x%x, origin: 0x%x\n", res, err_origin);
+        printf("Invocación del comando HELLO_CMD falló (error 0x%x)\n", res);
     } else {
-        printf("CA: Hola mundo desde la CA\n");
+        printf("Mensaje enviado con éxito a la TA: %s\n", message);
     }
 
     /* Cierra la sesión y finaliza el contexto */
     TEEC_CloseSession(&sess);
     TEEC_FinalizeContext(&ctx);
-
+    
     return 0;
 }

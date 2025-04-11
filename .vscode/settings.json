@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "tee_client_api.h": "c",
+        "system_error": "c",
+        "stdio.h": "c",
+        "tee_ta_properties.h": "c"
+    }
+}
